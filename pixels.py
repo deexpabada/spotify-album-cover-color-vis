@@ -11,7 +11,7 @@ pixelList = []
 def main():
     get_vertical_pixelList()
     get_horizontal_pixelList()
-    # print(pixelList)
+    #print(pixelList)
 
 def get_vertical_pixelList():
     for i in range(int(width/20)):
