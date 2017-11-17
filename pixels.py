@@ -1,6 +1,8 @@
 from PIL import Image
+from urllib.request import urlopen
 
-img = Image.open('sample.jpg')
+img = Image.open(urlopen('https://i.scdn.co/image/557a6058e3de72bf37ffcd2c12dd5932276df344'))
+
 px = img.load()
 width, height = img.size
 
