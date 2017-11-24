@@ -48,7 +48,8 @@ d3.csv('planet.csv', function(data) {
   parcoords
     .data(data)
     .render()
-    .brushMode("1D-axes");  // enable brushing
+    .brushMode("1D-axes")  // enable brushing
+    .reorderable();
 
   // create data table, row hover highlighting
   var grid = d3.divgrid();
