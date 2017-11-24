@@ -29,7 +29,7 @@ spotifyApi.getTrack('3Qm86XLflmIXVm1wcwkgDK', function(err, data) {
   if (err) console.error(err);
   else console.log('Track:', data);
   //print album of track
-  // console.log("This track is from this album: ", data["album"]["id"])
+  //console.log("This track is from this album: ", data["album"]["id"])
 });
 
 spotifyApi.getArtist('06HL4z0CvFAxyc27GXpf02', function(err, data) {
